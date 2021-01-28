@@ -1,19 +1,3 @@
-#do not call this file directly
-# to change the file from which the data is read change strings being passed to pd.read_excel in the line:
-# "self.data = pd.read_excel('./data/sim_data/datasetsGO_SYS1.xlsx', sheet_name="b=0.0119981,a=163.2")"
-# The read_fail_times function may also need to be changed as it is currently programmed specifically for the simulated data
-
-
-# try more often/intermediate rewards (reward changed and doesnt help)
-# see if q values converge / is policy changing (they are)
-# look into parameterized learning (function approximation but prob don't do)
-# deep learning
-
-
-import numpy as np
-import random
-import math
-import pandas as pd
 
 class dst_environment:
     def __init__(self, time_penalty = .01, alpha = 1):

@@ -1,7 +1,7 @@
 
 # to call: python3 multi_objective_agent.py [number of episodes] [time objective weight] [treasure objective weight]
 # sample function call: python3 multi_objective_agent.py 50000 0.7 0.3
-
+import random
 import sys
 
 import dst_environment
