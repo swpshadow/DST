@@ -1,17 +1,8 @@
 
 # to call: python3 multi_objective_agent.py [number of episodes] [time objective weight] [treasure objective weight]
 # sample function call: python3 multi_objective_agent.py 50000 0.7 0.3
-#
 
-import os
 import sys
-from collections import deque
-from collections import defaultdict
-from statistics import mean
-from openpyxl import load_workbook
-
-import numpy as np
-import matplotlib.pyplot as plt
 
 import dst_environment
 from dst_environment import *
